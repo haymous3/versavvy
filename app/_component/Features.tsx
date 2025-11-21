@@ -30,7 +30,7 @@ const Features = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary">
             Core values
           </p>
-          <h2 className="mt-4 text-3xl font-semibold text-[#07030d] sm:text-4xl">
+          <h2 className="mt-4 text-3xl font-semibold text-secondary sm:text-4xl">
             Principles that shape every engagement.
           </h2>
           <p className="mx-auto mt-4 max-w-3xl text-base text-[#4c4c4c]">
