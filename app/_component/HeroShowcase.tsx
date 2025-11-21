@@ -42,8 +42,8 @@ const HeroShowcase = () => {
             Future-ready consulting
           </p>
           <h1 className="text-4xl font-semibold leading-tight text-white sm:text-5xl lg:text-6xl">
-            Build intelligent experiences with a studio that ships{" "}
-            <span className="text-cyan-300">clarity, speed & soul.</span>
+          Create intelligent solutions with a team built for clarity, speed, and meaningful impact.{" "}
+            <span className="text-cyan-300">clarity, speed, &meaningful impact.</span>
           </h1>
           <p className="mt-6 text-lg text-white/80">{COMPANY_DESCRIPTION}</p>
 

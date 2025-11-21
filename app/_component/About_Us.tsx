@@ -11,19 +11,19 @@ import {
   COMPANY_VISION,
 } from "../content/company";
 
-const highlights = [COMPANY_DESCRIPTION, COMPANY_APPROACH];
+const highlights = [COMPANY_APPROACH];
 
 const AboutUs = () => {
   return (
     <section className="bg-white py-20">
       <div className="mx-auto flex max-w-6xl flex-col gap-12 px-5 lg:flex-row lg:items-center">
         <div className="relative flex-1">
-          <div className="absolute -inset-4 rounded-[2.5rem] bg-gradient-to-tr from-primary/20 to-cyan-400/20 blur-3xl" />
+          <div className="absolute -inset-4 rounded-[2.5rem] bg-linear-to-tr from-primary/20 to-cyan-400/20 blur-3xl" />
           <div className="relative rounded-[2.5rem] border border-[#f0ecff] bg-[#faf8ff] p-6 shadow-[0_25px_60px_-35px_rgba(49,36,80,0.45)]">
             <Image
               src={aboutHero}
               alt="Team collaborating"
-              className="w-full rounded-[2rem] object-cover"
+              className="w-full rounded-4xl object-cover"
               placeholder="blur"
             />
           </div>
@@ -33,7 +33,7 @@ const AboutUs = () => {
           <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary">
             About us
           </p>
-          <h2 className="text-3xl font-semibold text-[#07030d] sm:text-4xl">
+          <h2 className="text-3xl font-semibold text-secondary sm:text-4xl">
             About Versavvy
           </h2>
           <p className="text-base leading-relaxed text-[#4c4c4c]">
