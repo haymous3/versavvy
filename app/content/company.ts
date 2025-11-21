@@ -45,26 +45,31 @@ export const CORE_VALUES = [
 
 export const SERVICE_PORTFOLIO = [
   {
+    heading: 1,
     title: "Artificial Intelligence Solutions",
     description:
       "Design and deployment of machine learning models, natural language processing systems, automation workflows and predictive analytics.",
   },
   {
+    heading: 2,
     title: "Software and Application Development",
     description:
       "Design and development of custom applications, enterprise systems and digital platforms for web and mobile.",
   },
   {
+    heading: 3,
     title: "Data Engineering and Integration",
     description:
       "Building and maintaining data pipelines, APIs, ETL processes and automation systems that ensure accurate and reliable data movement.",
   },
   {
+    heading: 4,
     title: "Cloud Based Solutions",
     description:
       "Leveraging cloud platforms such as Microsoft Azure and AWS to build scalable, secure and cost efficient technology systems.",
   },
   {
+    heading: 5,
     title: "Technology Consulting",
     description:
       "Providing technical strategy, architecture guidance and support for organizations adopting AI, automation and digital transformation.",

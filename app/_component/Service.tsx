@@ -21,12 +21,12 @@ const iconStack = [
 
 const Service = () => {
   return (
-    <section className="bg-gradient-to-br from-[#f7f9fe] via-[#f3f0ff] to-[#eef7ff] py-20">
+    <section className="bg-linear-to-br from-[#f7f9fe] via-[#f3f0ff] to-[#eef7ff] py-20">
       <div className="mx-auto max-w-6xl px-5 text-center">
         <p className="text-sm font-semibold uppercase tracking-[0.35em] text-primary">
           What we build
         </p>
-        <h2 className="mt-4 text-3xl font-semibold text-[#07030d] sm:text-4xl">
+        <h2 className="mt-4 text-3xl font-semibold text-secondary sm:text-4xl">
           Interdisciplinary squads crafting end-to-end experiences.
         </h2>
         <p className="mx-auto mt-4 max-w-3xl text-base text-[#4c4c4c]">
