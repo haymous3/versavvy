@@ -7,7 +7,7 @@ import Hero from "../_component/Hero";
 import Hiring from "../_component/Hiring";
 import ProcessTimeline from "../_component/ProcessTimeline";
 import Team from "../_component/Team";
-import Testimonials from "../_component/Testimonials";
+//import Testimonials from "../_component/Testimonials";
 
 import hero4 from "@/public/hero_4.png";
 import {
@@ -139,10 +139,10 @@ const Page = () => {
         <FadeInSection>
           <ProcessTimeline />
         </FadeInSection>
-
+{/* 
         <FadeInSection>
           <Testimonials />
-        </FadeInSection>
+        </FadeInSection> */}
 
         <FadeInSection>
           <Hiring />

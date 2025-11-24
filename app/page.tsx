@@ -9,7 +9,7 @@ import Header from "./_component/Header";
 import HeroShowcase from "./_component/HeroShowcase";
 import ProcessTimeline from "./_component/ProcessTimeline";
 import Service from "./_component/Service";
-import Testimonials from "./_component/Testimonials";
+//import Testimonials from "./_component/Testimonials";
 
 export default function Home() {
   return (
@@ -18,35 +18,25 @@ export default function Home() {
       <main className="bg-[#f8f8fb]">
         <HeroShowcase />
         <ClientRibbon />
-
         <FadeInSection>
           <Archievement />
         </FadeInSection>
-
         <FadeInSection>
           <AboutUs />
         </FadeInSection>
-
         <FadeInSection>
           <CaseStudyShowcase />
         </FadeInSection>
-
         <FadeInSection>
           <Service />
         </FadeInSection>
-
-        
           <Features />
-        
-
         <FadeInSection>
           <ProcessTimeline />
         </FadeInSection>
-
-        <FadeInSection>
+        {/* <FadeInSection>
           <Testimonials />
-        </FadeInSection>
-
+        </FadeInSection> */}
         <FadeInSection>
           <Footer />
         </FadeInSection>

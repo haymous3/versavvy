@@ -8,7 +8,7 @@ import Hero from "../_component/Hero";
 import ProcessTimeline from "../_component/ProcessTimeline";
 import Service from "../_component/Service";
 import Team from "../_component/Team";
-import Testimonials from "../_component/Testimonials";
+//import Testimonials from "../_component/Testimonials";
 
 import hero3 from "@/public/hero-3.png";
 import {COMPANY_DESCRIPTION, COMPANY_APPROACH} from "../content/company";
@@ -123,9 +123,9 @@ const Page = () => {
           <ProcessTimeline />
         </FadeInSection>
 
-        <FadeInSection>
+        {/* <FadeInSection>
           <Testimonials />
-        </FadeInSection>
+        </FadeInSection> */}
 
         <FadeInSection>
           <Footer />

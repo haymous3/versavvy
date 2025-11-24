@@ -1,17 +1,24 @@
 "use client";
 
-import {motion} from "framer-motion";
+//import {motion} from "framer-motion";
 
-const metrics = [
-  {label: "Products launched", value: "60+", detail: "AI, apps & data hubs"},
-  {label: "Enterprise teams enabled", value: "45", detail: "Across 7 markets"},
-  {label: "Average deployment speed", value: "8 wks", detail: "From brief to go-live"},
-  {label: "Customer satisfaction", value: "4.9/5", detail: "Across engagements"},
-];
+// const metrics = [
+//   {label: "Products launched", value: "60+", detail: "AI, apps & data hubs"},
+//   {label: "Enterprise teams enabled", value: "45", detail: "Across 7 markets"},
+//   {label: "Average deployment speed", value: "8 wks", detail: "From brief to go-live"},
+//   {label: "Customer satisfaction", value: "4.9/5", detail: "Across engagements"},
+// ];
+
+// const metrics = [
+//   {label: "", value: "", detail: ""},
+//   {label: "", value: "", detail: ""},
+//   {label: "", value: "", detail: ""},
+//   {label: "", value: "", detail: ""},
+// ];
 
 const Archievement = () => {
   return (
-    <section className="relative overflow-hidden bg-gradient-to-br from-primary via-[#1c0f33] to-secondary py-20 text-white">
+    <section className="relative overflow-hidden bg-linear-to-br from-primary via-[#1c0f33] to-secondary py-20 text-white">
       <div className="absolute inset-0 opacity-40">
         <div className="absolute -left-20 top-10 h-40 w-40 rounded-full bg-white/30 blur-3xl" />
         <div className="absolute right-0 bottom-0 h-60 w-60 rounded-full bg-cyan-400/40 blur-3xl" />
@@ -29,7 +36,7 @@ const Archievement = () => {
           confidence.
         </p>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
+        {/* <div className="mt-12 grid gap-6 sm:grid-cols-2">
           {metrics.map((metric) => (
             <motion.div
               key={metric.label}
@@ -43,7 +50,7 @@ const Archievement = () => {
               <p className="mt-3 text-sm text-white/70">{metric.detail}</p>
             </motion.div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

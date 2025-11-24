@@ -2,7 +2,7 @@
 
 import {motion} from "framer-motion";
 import {FaFacebook, FaTwitter, FaInstagram, FaLinkedin} from "react-icons/fa";
-import {EnvelopeIcon, MapPinIcon, PhoneIcon} from "@heroicons/react/24/solid";
+import {EnvelopeIcon, MapPinIcon} from "@heroicons/react/24/solid";
 import Link from "next/link";
 
 import Button from "./Button";
@@ -76,10 +76,10 @@ const Footer = () => {
                   Contact
                 </h4>
                 <div className="mt-4 space-y-4 text-sm text-white/80">
-                  <div className="flex gap-3">
+                  {/* <div className="flex gap-3">
                     <PhoneIcon className="h-5 w-5 text-cyan-300" />
                     <span>+234 813 738 6134</span>
-                  </div>
+                  </div> */}
                   <div className="flex gap-3">
                     <EnvelopeIcon className="h-5 w-5 text-cyan-300" />
                     <span>contact@versavvy.com</span>

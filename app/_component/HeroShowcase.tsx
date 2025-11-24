@@ -10,10 +10,10 @@ import heroAltTwo from "@/public/hero_4.png";
 import Button from "./Button";
 import {COMPANY_DESCRIPTION, COMPANY_APPROACH} from "../content/company";
 
-const stats = [
-  {label: "AI-focused products launched", value: "28+"},
-  {label: "Enterprise transformations", value: "120+"},
-  {label: "Average ROI unlocked", value: "3.4x"},
+ const stats = [
+  {label: "AI-focused ", value: ""},
+  {label: "Enterprise transformations", value: ""},
+  {label: "Average ROI unlocked", value: ""},
 ];
 
 const benefits = [
@@ -78,7 +78,7 @@ const HeroShowcase = () => {
           </div>
 
           <div className="mt-12 grid gap-6 sm:grid-cols-3">
-            {stats.map((stat) => (
+            {stats?.map((stat) => (
               <div
                 key={stat.label}
                 className="rounded-2xl border border-white/10 bg-white/5 px-4 py-5 text-center backdrop-blur"
@@ -159,13 +159,13 @@ const HeroShowcase = () => {
               initial={{opacity: 0, x: 40}}
               animate={{opacity: 1, x: 0}}
               transition={{delay: 0.3}}
-              className="absolute -right-6 top-10 hidden w-48 rounded-3xl border border-white/20 bg-secondary p-4 text-left shadow-2xl shadow-cyan-900/60 sm:block"
+              className=""
             >
-              <p className="text-xs uppercase tracking-[0.35em] text-white/40">
+              {/* <p className="text-xs uppercase tracking-[0.35em] text-white/40">
                 Live metric
               </p>
-              <p className="mt-2 text-3xl font-semibold text-cyan-200">99.7%</p>
-              <p className="text-xs text-white/60">Automation accuracy</p>
+              <p className="mt-2 text-3xl font-semibold text-cyan-200"></p>
+              <p className="text-xs text-white/60">Automation accuracy</p> */}
             </motion.div>
           </div>
         </motion.div>
